@@ -32,7 +32,7 @@ TinyCNN challenges that notion by proving:
 
 | Model       | Parameters | Accuracy (MNIST) | Notes                               |
 |-------------|------------|------------------|-------------------------------------|
-| LeNet-5     | ~60,000    | ~99.0%           | Classical CNN for digit recognition |
+| LeNet-5     | ~48,000    | ~99.0%           | Classical CNN for digit recognition |
 | **TinyCNN** | **18,982** | **~98.0%**       | Extremely lightweight alternative   |
 
 Despite having less than 1/3rd the parameters, TinyCNN reaches comparable accuracy to LeNet-5.
