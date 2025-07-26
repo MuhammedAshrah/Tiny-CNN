@@ -1,4 +1,4 @@
-# TinyCNN: High Accuracy, Low Complexity – Deep Learning for the Edge
+# TinyCNN: When Smaller is Smarter - Deep Learning for the Edge
 
 A minimalist Convolutional Neural Network that achieves **~98.5% accuracy** on handwritten digit classification using just **~19K parameters** demonstrating that **you don’t need big models to get big results.**
 
@@ -8,7 +8,7 @@ TinyCNN challenges that notion by proving:
 
 - A simple architecture can be highly effective on structured tasks like digit recognition.
 - Compact models are easier to train, interpret, and deploy — even on microcontrollers.
-- It's a perfect stepping stone for **students**, **hardware hobbyists**, and **embedded AI developers**.
+- It's a perfect stepping stone for students,hardware hobbyists, and embedded AI developers.
 
 ---
 
@@ -28,6 +28,16 @@ TinyCNN challenges that notion by proving:
 
 ---
 
+## Comparison with LeNet-5
+
+| Model       | Parameters | Accuracy (MNIST) | Notes                               |
+|-------------|------------|------------------|-------------------------------------|
+| LeNet-5     | ~60,000    | ~99.0%           | Classical CNN for digit recognition |
+| **TinyCNN** | **18,982** | **~98.0%**       | Extremely lightweight alternative   |
+
+Despite having less than 1/3rd the parameters, TinyCNN reaches comparable accuracy to LeNet-5.
+
+---
 ## Training Setup
 
 - **Dataset**: MNIST (or similar digit set)
@@ -57,4 +67,3 @@ TinyCNN challenges that notion by proving:
 
 ---
 
-> This project shows that **efficiency isn't the enemy of accuracy** — it's the future of deep learning on the edge.
