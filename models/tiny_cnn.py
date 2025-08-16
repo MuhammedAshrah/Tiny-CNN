@@ -10,7 +10,7 @@ class Tiny_CNN(nn.Module):
 
         # First convolutional layer
         self.conv1 = nn.Conv2d(in_channels=1, out_channels=4, kernel_size=3)
-        # Second convolutional layer (fix: use different name, not conv1 again!)
+        # Second convolutional layer 
         self.conv2 = nn.Conv2d(in_channels=4, out_channels=4, kernel_size=3)
 
         # Maxpooling
